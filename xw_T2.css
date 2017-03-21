@@ -1,0 +1,54 @@
+
+	header{
+		position relative;
+		top:0px;
+		
+		background-color: rgb(16,16,16);
+
+    	 position:relative;
+    	top: 0px;
+    	right:0px;
+	}
+	#bd{
+		width: 150px;
+		background-color: transparent;
+	}
+    #l2{
+    	font-size:15px;
+    	width:500px;
+    	color:gray;
+    }
+    .menu{
+		width:400px;
+		height:50px;
+		margin:0;
+		
+		
+
+		
+
+    	
+    	
+    }
+    .menu li{
+    	 width:100px;
+    	 color: white;
+
+              
+            float: left;/*该处换为display:inline-block;同样效果*/
+
+    	
+    }
+    .menu li a{
+    	 width:100px;
+    	 	
+            height:50px;
+            color: white;
+            font-size: 14px;
+            line-height:50px;
+            display: inline-block;
+
+    	
+    }
+
+	
