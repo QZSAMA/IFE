@@ -1,28 +1,30 @@
+    .header{
+        background-image:url("http://ss.bdimg.com/static/superman/img/logo/bd_logo1_31bdc765.png");
+        background-size: 105px;
+        background-position:top left;
+        background-color: rgb(16,16,16);
+        background-repeat: no-repeat;
 
-	header{
-		position relative;
-		top:0px;
-		
-		background-color: rgb(16,16,16);
+    }
 
-    	 position:relative;
-    	top: 0px;
-    	right:0px;
-	}
+
+
+
 	#bd{
 		width: 150px;
 		background-color: transparent;
 	}
-    #l2{
+    #lv2{
     	font-size:15px;
     	width:500px;
     	color:gray;
     }
-    .menu{
+    .links{
 		width:400px;
 		height:50px;
 		margin:0;
-		
+		position:relative;
+        left:70%;
 		
 
 		
@@ -30,16 +32,14 @@
     	
     	
     }
-    .menu li{
-    	 width:100px;
-    	 color: white;
-
-              
-            float: left;/*该处换为display:inline-block;同样效果*/
+    .links li{
+    	width:100px;
+    	color: white;
+        float: left;/*该处换为display:inline-block;同样效果*/
 
     	
     }
-    .menu li a{
+    .links li a{
     	 width:100px;
     	 	
             height:50px;
